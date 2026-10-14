@@ -58,7 +58,7 @@ function App() {
   }
 
   return (
-    <div className="flex h-screen overflow-hidden bg-[#f7fafc] text-ink-900 dark:bg-ink-950 dark:text-white">
+    <div className="flex h-screen h-dvh overflow-hidden bg-[#f7fafc] text-ink-900 dark:bg-ink-950 dark:text-white">
       <Sidebar domain={domain} setDomain={setDomain} onStarter={ask} theme={theme} setTheme={setTheme} mobileOpen={mobileOpen} setMobileOpen={setMobileOpen} />
       <section className="flex min-w-0 flex-1 flex-col">
         <header className="z-20 flex h-[72px] shrink-0 items-center justify-between border-b border-slate-200/80 bg-white/90 px-4 backdrop-blur-xl dark:border-white/10 dark:bg-slate-950/85 sm:px-6">
